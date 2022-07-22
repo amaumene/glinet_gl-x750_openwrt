@@ -11,7 +11,7 @@ env:
   BOARD: "ath79"
   SUBTARGET: "generic"
   PROFILE: "glinet_gl-x750"
-  PACKAGES_TYPE1: "luci-proto-qmi kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan picocom iperf3 luci mtr kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
+  PACKAGES_TYPE1: "zerotier luci-proto-qmi kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan picocom iperf3 luci mtr kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
 
 jobs:
   build:
